@@ -10,4 +10,7 @@
 3groove creates a sunken 3D border, while ridge creates a raised 3D border.
 #groove = to show inword effect take color from the border
 #ridge = to show outeword effect take color from the border
+#overflow-anchor => it control scroll anchoring , it means prevents the page from jumpning when new message added and removed
+#overflow => it prevent text from overflowing its container,
+#overflow-wrap: break-word = > only when overflow while overflow-wrap: anywhere at any point even no overflow
 

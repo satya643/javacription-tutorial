@@ -22,4 +22,6 @@
 #fixed => it positioned relative to the viewport it means it stay in the same place even if the page is scrolled
 #absolute => positioned relative to nearest positioned ancestor if not parent element then it point to body of template
 #sticky => toggel between the fixed and relative, positioned relative unitill a certain scrolled position  reached and after the scrolled condtion reached it behave like fixed;
-#z-index = specify the stack order of the element it means which element will come on the front and which will come behind
+#z-index => specify the stack order of the element it means which element will come on the front and which will come behind
+#float => it specifies to float the element left, right , and not at all.
+#clear => this property pushes the floated element below on the left ,right,both side,

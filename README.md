@@ -1,4 +1,5 @@
-# WHAT YOU HAVE LEARN IN CSS 
+# WHAT YOU HAVE LEARN IN CSS
+#auto => tells the browser to auto calculate value based on content, container, or layout rules
 # id name does not start with the number
 # class select using dor(.) 
 # select select elemtn by id using (#)
@@ -33,3 +34,8 @@
 #block => take full available width and height , always start with new line of each element 
 #block-inline => accepts width and height but remail in the same line 
 #clear:both => it pushes the pseudo element below the floating element so that parent can expand below
+#center align the block element => margin: auto => horizontaly center the block element also specify the width to prevent element from streching out of its container
+#center align image => margin:left/right = auto, and display:block and width to shrink the image size
+#center with flex => align elements both horizontally and vertically take justify-content and align-items =  center
+#center align item with grid => place-items:center;
+#align with position,float

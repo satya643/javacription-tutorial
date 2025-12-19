@@ -13,4 +13,12 @@
 #overflow-anchor => it control scroll anchoring , it means prevents the page from jumpning when new message added and removed
 #overflow => it prevent text from overflowing its container,
 #overflow-wrap: break-word = > only when overflow while overflow-wrap: anywhere at any point even no overflow
-
+#display = it is used to change the default behaviour of the html elements 
+#inline = span, a, img
+#block = div, nav, section,header,footer,h1
+#max-width => it is used to make the content dynamic shrink according to the screen while in width : it does not happen
+#static => it positioned always according to the normal flow of the page
+#relative => it positioned relative to its normal position in document flow
+#fixed => it positioned relative to the viewport it means it stay in the same place even if the page is scrolled
+#absolute => positioned relative to nearest positioned ancestor if not parent element then it point to body of template
+#sticky => toggel between the fixed and relative, positioned relative unitill a certain scrolled position  reached and after the scrolled condtion reached it behave like fixed;

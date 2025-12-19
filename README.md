@@ -19,9 +19,17 @@
 #max-width => it is used to make the content dynamic shrink according to the screen while in width : it does not happen
 #static => it positioned always according to the normal flow of the page
 #relative => it positioned relative to its normal position in document flow
+#clearfix => it is used to when the element is flow outside the container 
 #fixed => it positioned relative to the viewport it means it stay in the same place even if the page is scrolled
 #absolute => positioned relative to nearest positioned ancestor if not parent element then it point to body of template
 #sticky => toggel between the fixed and relative, positioned relative unitill a certain scrolled position  reached and after the scrolled condtion reached it behave like fixed;
 #z-index => specify the stack order of the element it means which element will come on the front and which will come behind
 #float => it specifies to float the element left, right , and not at all.
 #clear => this property pushes the floated element below on the left ,right,both side,
+#clearfix => when you use float with left ,right the parent controller did not recognize the floating children and parent container collapse
+#Note: It creates an invisible helper element inside the parent, right after its children.
+#display:table => it make the pseudo element behave like a block level element
+#inline => Does NOT accept width/height, stays in the same line, and only takes space equal to its content
+#block => take full available width and height , always start with new line of each element 
+#block-inline => accepts width and height but remail in the same line 
+#clear:both => it pushes the pseudo element below the floating element so that parent can expand below

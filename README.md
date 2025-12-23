@@ -39,3 +39,8 @@
 # center with flex => align elements both horizontally and vertically take justify-content and align-items =  center
 # center align item with grid => place-items:center;
 # align with position,float   
+#inherited properties => color, font-family, font-size, line-height and text-align it applied with the inline elements
+#non-inherited properties => border, background, margin, height, padding,
+# explict inherit works on both strong {
+  border: inherit;
+}

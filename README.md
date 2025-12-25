@@ -44,3 +44,11 @@
 # explict inherit works on both strong {
   border: inherit;
 }
+#border-image-source: url(border.png) = This takes your image and turns it into a border.
+#border-image-slice:30 = 30px = image is slice in 30px in each side corner will become border and center will ignored
+#border-image-width = control how border thick should be 
+#border-image-outset 2 = 2px = border image extends outside the element 
+#border-image-reeat: strech  =  strech image to fit border
+                     repeat  =  repaet image multiple times
+                     round = Repeat but adjust size to fit perfectly
+                     space = add space beteen the repeat
